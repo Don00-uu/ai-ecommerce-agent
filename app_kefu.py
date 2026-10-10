@@ -61,7 +61,7 @@ def rewrite(question):
     )
     return resp.choices[0].message.content.strip().strip('"')
 
-def search(question, top_n=2):
+def search(question, top_n=4):
     qv = emb_client.embeddings.create(
         model="BAAI/bge-m3", input=rewrite(question)
     ).data[0].embedding
