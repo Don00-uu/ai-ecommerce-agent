@@ -1,0 +1,13 @@
+.env
+__pycache__/
+
+# 学习过程中的试验脚本，暂不上传
+hello.py
+json_test.py
+tool_test.py
+rag_test.py
+rag_test2.py
+vector_test.py
+kefu.py
+文案结果.csv
+文案结果.txt
